@@ -2,6 +2,7 @@
   "app": "npx ts-node bin/custom_vpc.ts",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
-    "aws-cdk:enableDiffNoFail": "true"
+    "aws-cdk:enableDiffNoFail": "true",
+    "cidr": "10.0.1.0/16"
   }
 }
